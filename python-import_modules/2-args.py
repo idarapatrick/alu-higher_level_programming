@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 if __name__ == "__main__":
     """
         Outputs the number of and the list of its arguments.
