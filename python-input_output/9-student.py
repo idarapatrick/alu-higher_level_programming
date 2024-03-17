@@ -22,4 +22,3 @@ class Student:
             'age': self.age
         }
         return context
-  
