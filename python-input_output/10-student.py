@@ -31,4 +31,3 @@ class Student:
                 if item in context.keys():
                     cont[item] = context[item]
             return cont
-        
