@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 '''Pascal’s triangle of n:'''
 
 
