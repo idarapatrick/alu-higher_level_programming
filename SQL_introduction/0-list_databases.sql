@@ -1,1 +1,1 @@
-SELECT * FROM visionaries;
+SHOW DATABASES;
