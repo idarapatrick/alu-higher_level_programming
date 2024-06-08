@@ -8,8 +8,7 @@ module.exports = class Rectangle {
     }
   }
 
-  print() {
-    console.log(`Rectangle(width: ${this.width}, height: ${this.height})`);
+  print () {
     for (let i = 0; i < this.height; i++) {
       let s = '';
       for (let j = 0; j < this.width; j++) {
