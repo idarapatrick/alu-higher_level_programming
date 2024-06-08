@@ -5,10 +5,14 @@ module.exports = class Rectangle {
     if (w > 0 && h > 0) {
       this.width = w;
       this.height = h;
+    } else {
+      this.width = 0
+      this.height = 0
     }
   }
   
-  print () {
+  print() {
+    console.log(`Rectangle(width: ${this.width}, height: ${this.height})`);
     for (let i = 0; i < this.height; i++) {
       let s = '';
       for (let j = 0; j < this.width; j++) {
@@ -18,8 +22,9 @@ module.exports = class Rectangle {
     }
   }
   
+  
   rotate () {
-    const currentState = this.width;o
+    const currentState = this.width;
     this.width = this.height;
     this.height = currentState;
   }
